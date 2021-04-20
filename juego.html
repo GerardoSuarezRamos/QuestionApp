@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="StyleSheet" href="./juegoStyle.css" />
+    <link rel="icon" href="./img/fondo.png" />
+    <title>Questio's random</title>
+</head>
+<body>
+    <a href="./index.html" class="regreso">regresar</a>
+    <div class="flex-container">
+        <div class="pregunta">
+            <h3 id="hacer">
+                esta es la pregunta
+            </h3>
+        </div>
+        <form>
+            <input type="button" id="respuesta1" onclick="validar1()"/>
+            <input type="button" id="respuesta2" onclick="validar2()"/>
+            <input type="button" id="respuesta3" onclick="validar3()"/>
+            <input type="button" id="respuesta4"/ onclick="validar4()"/>
+        </form>
+    </div>
+    <div class="contador" >
+        <div class="anuncio">
+            <h5>
+                Su puntaje actual es:
+            </h5>
+        </div>
+        <div class="aciertos">
+            <h5>
+                Aciertos: 
+            </h5>
+            <h6 id="aciertos">0</h6>
+        </div>
+        <div class="fallas">
+            <h5>
+                Fallas: 
+            </h5>
+            <h6 id="fallas">0</h6>
+        </div>
+    </div>
+    <div class="modal" id="modal">
+        <div class="modalctn">
+            <h3 id="text">
+                knj
+            </h3>
+            
+        </div>
+    </div>
+    <script src="indexJuego.js"></script>
+</body>
+</html>
